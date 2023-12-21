@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Student Grade</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="custom-file-input">
+      <span id="file-name">Enter File</span>
+      <input type="file" id="excel-file" />
+    </div>
+    <div class="search">
+      <input type="text" id="student-name" placeholder="Enter student name" />
+      <button id="search-button">Search</button>
+    </div>
+    <div id="results">
+      <div class="subject">
+        <span> Name </span>
+
+        <span id="name">-</span>
+      </div>
+      <div class="subject">
+        <span>Math</span>
+        <span id="math-mark">-</span>
+      </div>
+      <div class="subject">
+        <span>Physics</span>
+        <span id="physics-mark">-</span>
+      </div>
+      <div class="subject">
+        <span>Chemistry</span>
+        <span id="chemistry-mark">-</span>
+      </div>
+      <div class="subject">
+        <span>Amharic</span>
+        <span id="amharic-mark">-</span>
+      </div>
+      <div class="subject">
+        <span>Biology</span>
+        <span id="biology-mark">-</span>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
